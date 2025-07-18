@@ -1,0 +1,96 @@
+html{
+	scroll-behavior: smooth;
+}
+
+
+body {
+	background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.8)),url('resources/try.png') no-repeat center center fixed;
+	background-blend-mode: multiply;
+	background-size: cover;
+}
+
+nav{
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  display: flex;
+  gap: 3rem;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 30px;
+  border-radius: 20px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 15px rgba(255, 101, 0, 0.2);
+}
+
+.navbar a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  color: #FF6500;
+}
+
+div.heading {
+	position:relative;
+	border-style: solid;
+	border-color: #c6c7ca;
+	left: 15%;
+	top: 75px;
+	border-radius: 15px;
+	width: 1300px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FF6500;
+	backdrop-filter: blur(6px);
+	background: rgba(0, 0, 0, 0.5);
+	background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(83, 83, 83, 0.5))
+}
+
+#terms-box {
+  backdrop-filter: blur(8px);
+  padding: 20px;
+  border-radius: 12px;
+  border: 2px solid #ccc;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+div {
+	position:relative;
+	border-style: solid;
+	border-color: #c6c7ca;
+	left: 15%;
+	top: 72px;
+	border-radius: 15px;
+	width: 1300px;
+	padding-left: 30px;
+	font-size: 20px;
+	color: aliceblue;
+	backdrop-filter: blur(6px);
+	background: rgba(0, 0, 0, 0.5);
+	background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(83, 83, 83, 0.5))	
+}
+
+.TOS-usagerights,
+.TOS-commissionrules,
+.TOS-workqueue,
+.TOS-payment,
+.concludes{
+	color: #FF6500;
+	text-align: center;
+	font-weight: bold;
+}
+
+.usagerightstext,
+.commissionrulestext,
+.workqueue,
+.payment{
+	line-height: 50px;
+}
+
